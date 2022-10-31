@@ -65,7 +65,7 @@ html {
   min-width:150px;
 }
 
-.bluelight {
+.bluelight:hover {
     text-shadow: 0 0 10px #3498DB,
                  0 0 20px #3498DB,
                  0 0 30px #3498DB,
@@ -75,6 +75,10 @@ html {
                  0 0 100px #2980B9,
                  0 0 150px #2980B9;
   }
+
+  .clock {
+    overflow: hidden;
+}
   
 @media (max-width:992px){
   .countdown-container > div{
